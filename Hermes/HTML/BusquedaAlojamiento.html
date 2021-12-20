@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/BusquedaAlojamiento.css" rel="stylesheet" media="all" type="text/css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="../../IndexPagina/HTML/Hermes.html"><img src="../IMG/Hermes.png" alt="logo hermes" class="logo" /></a>
+            <h1>HERMES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../../Listado de vuelos/ListaDoVuelos.html">Vuelos</a></li>
+                <li><a href="BusquedaAlojamiento.html" class="actual">Hoteles</a></li>
+                <li><a href="#">Coches</a></li>
+                <li><a href="#">Taxis</a></li>
+                <li><a href="../../ListadoActividades/ListadoActividades.html">Actividades</a></li>
+            </ul>
+        </nav>
+        <section>
+            <form>
+                <div class="principal">
+                    <div>
+                        <input type="text" requider name="destino" placeholder="&#9992; ¿A donde quieres ir?" autofocus />
+                    </div>
+                    <div>
+                        <input type="date" name="salida" required value="2022-01-01" min="2022-01-01" max="22-12-31" />
+                    </div>
+                    <div>
+                        <input type="date" name="vuelta" required value="aaaa-mm-dd" min="salida" max="22-12-31" />
+                    </div>
+                    <div class="submit">
+                        <a href="#" class="boton">Buscar alojamiento</a>
+                    </div>
+                </div>
+                <div class="tipo">
+                    <div>
+                        <input type="radio" id="Apartamento" name="tipo" value="Apartamento" checked>
+                        <label for="Apartamento">Apartamento</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Hotel" name="tipo" value="Hotel">
+                        <label for="Hotel">Hotel</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Apartahotel" name="tipo" value="Apartahotel">
+                        <label for="Apartahotel">Apartahotel</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Casa" name="tipo" value="Casa">
+                        <label for="Casa">Casa</label>
+                    </div>
+                </div>
+            </form>
+            <div class="filtros">
+                <details>
+                    <summary>Filtros</summary>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="filtro1" id="filtro1" value="1">
+                            <label for="filtro1">Desayuno incluido</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="filtro2" id="filtro2" value="2">
+                            <label for="filtro2">Cancelación gratuita</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="filtro3" id="filtro3" value="3">
+                            <label for="filtro2">Baño privado</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="filtro4" id="filtro4" value="4">
+                            <label for="filtro2">Parking</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="filtro5" id="filtro5" value="5">
+                            <label for="filtro2">Piscina</label>
+                        </li>
+                        <li>
+                            <select name="estrellas">
+                                <option value="default">¿Cuantas estrellas?</option>
+                                <option value="1e">&#9733;</option>
+                                <option value="2e">&#9733;&#9733;</option>
+                                <option value="3e">&#9733;&#9733;&#9733;</option>
+                                <option value="4e">&#9733;&#9733;&#9733;&#9733;</option>
+                                <option value="5e">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                            </select>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <div class="container">
+                <ul class="slider">
+                    <li id="slide1">
+                        <img src="../IMG/OfertaOsaka.jpg"/>
+                    </li>
+                    <li id="slide2">
+                        <img src="../IMG/OfertaParis.jpg"/>
+                    </li>
+                    <li id="slide3">
+                        <img src="../IMG/OfertaPraga.jpg"/>
+                    </li>
+                    <li id="slide4">
+                        <img src="../IMG/OfertaSantorini.jpg"/>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <a href="#slide1">1</a>
+                    </li>
+                    <li>
+                        <a href="#slide2">2</a>
+                    </li>
+                    <li>
+                        <a href="#slide3">3</a>
+                    </li>
+                    <li>
+                        <a href="#slide4">4</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <div class="social">
+                <div>
+                    <img src="../IMG/twitter.png"/><a href="https://twitter.com/rubi_marh" target="_blank">Twitter</a>
+                </div>
+                <div>
+                    <img src="../IMG/insta.png"/><a href="https://www.instagram.com/rubi_marh/?hl=es" target="_blank">Instagram</a>
+                </div>
+                <div>
+                    <img src="../IMG/mail.png"/>ruben.marhuenda@iesdoctorbalmis.com
+                </div>
+            </div>
+            <div class="grupo">
+                <p>Rubén Marhuenda Molina&#169;</p>
+                <p>Grupo 10</p>
+            </div>
+            
+        </footer>
+    </main>
+</body>
+
+</html>

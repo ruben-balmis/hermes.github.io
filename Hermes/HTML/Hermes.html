@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Playfair+Display&family=Readex+Pro&display=swap" rel="stylesheet">
+    <link href="../CSS/Hermes.css" rel="stylesheet" media="all" type="text/css" />
+    <title>Hermes</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="fondo">
+                <a class="logotipo" title="Página web Hermes" href="../HTML/Hermes.html">
+                  <img src="../Imagenes/Logotipo Hermes.png" alt="Compañía de viajes Hermes" width="140px" height="140px">
+                  <h1>HERMES</h1>
+                </a>
+                <nav>
+                    <ul>
+                      <li><a href="#">Vuelos</a></li>  
+                      <li><a href="#">Hoteles</a></li>
+                      <li><a href="#">Coches</a></li>
+                      <li><a href="#">Taxis</a></li>
+                      <li><a href="#">Actividades</a></li>
+                    </ul>
+                </nav>
+                <form>
+                    <div>
+                        <label><b>Destino </b></label> 
+                        <input type="text" required/>
+                      </div>
+                      <div>
+                        <label><b>Fecha Salida </b></label>
+                        <input type="date"/>
+                      </div>
+                      <div>
+                        <label><b>Fecha Vuelta </b></label>
+                        <input type="date"/>
+                      </div>
+                      <div>
+                        <label><b>Num. Personas </b></label>
+                        <input type="number"/>
+                      </div>
+                      <div>
+                        <select name="OS">
+                           <option selected value="0"> Servicio deseado </option>
+                              <optgroup label="Desplazamiento"> 
+                              <option value="1">Avión</option> 
+                              <option value="2">Tren</option> 
+                              <option value="3">Barco</option> 
+                              <option value="3">Autobus</option>
+                              <optgroup label="Alojamiento"> 
+                              <option value="1">Hotel</option> 
+                              <option value="2">Hostal</option> 
+                              <option value="3">Apartamento</option> 
+                           </optgroup> 
+                        </select>
+                      </div>
+                      <div id="centerBut">
+                        <input type="submit" value="Buscar" class="boton"/>
+                      </div>
+                      <div>
+                        <input type="reset" value="Eliminar busqueda"/>
+                      </div>
+                </form>
+            </div>
+        </header>
+        <!---
+        <section>
+
+        </section>
+        -->
+        <footer>
+            <div>
+              <p>Oferta1</p>
+            </div>
+            <div>
+              <p>Oferta2</p>
+            </div>
+            <div>
+              <p>Oferta3</p>
+            </div>
+            <div>
+              <p>Oferta4</p>
+            </div>
+            <div class="Dominio">
+              <p>Carles Rosell Garrido 1 DAM A &#169</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

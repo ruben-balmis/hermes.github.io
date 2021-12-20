@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ListadoActividades.css" rel="stylesheet" media="all" type="text/css" />
+    <title>ListadoActividades</title>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="../IndexPagina/HTML/Hermes.html"><img src="Hermes.png" alt="Hermes" width="140px" height="140px">
+            <h1>HERMES</h1>
+        </header>
+        <nav>
+            <a href="../Listado%20de%20Vuelos/ListaDoVuelos.html" target="_self" rel="noopener noreferrer">Vuelos</a>
+            <a href="../BusquedaAlojamiento/HTML/BusquedaAlojamiento.html" target="_self" rel="noopener noreferrer">Hoteles</a>
+            <a href="http://" target="_self" rel="noopener noreferrer">Coches</a>
+            <a href="http://" target="_self" rel="noopener noreferrer">Taxis</a>
+            <a id="Actividades" href="ListadoActividades.html" target="_self" rel="noopener noreferrer">Actividades</a>
+        </nav>
+        <div>
+            <h2>Buscador de Actividades</h2>
+            <form>
+                <span class="Buscador">
+                    <input type="text" id="buscador" placeholder="Introduzca la ciudad">
+                    <input type="button" id="boton">
+                </span>
+                <span>
+                    <input type="radio" id="tour" name="seleccion">
+                    <label>Tour</label>
+                    <input type="radio" id="actividades" name="seleccion">
+                    <label>Actividades</label>
+                    <input type="radio" id="museos" name="seleccion">
+                    <label>Museos</label>
+                    <select name="precio" id="precio">
+                        <option value="-100">Menor de 50€</option>
+                        <option value="50-200">Entre 50€ y 200€</option>
+                        <option value="200-500">Entre 200€ y 500€</option>
+                        <option value="+500">Mayor de 500€</option>
+                    </select>
+                </span>
+            </form>
+            <div>
+                <span><h3>Top destinos</h3></span>
+                <span>
+                    <span id="imagen"><img src="londres.jpg" alt="londres" width="250vw" height="200vh"><span id="texto">Londres</span></span>
+                    <span id="imagen"><img src="paris.jpg" alt="paris" width="250vw" height="200vh"><span id="texto">París</span></span>
+                    <span id="imagen"><img src="amsterdam.jpeg" alt="amsterdam" width="250vw" height="200vh"><span id="texto">Amsterdam</span></span>
+                    <span  id="imagen"><img src="roma.jpg" alt="roma" width="250vw" height="200vh"><span id="texto">Roma</span></span>
+                </span>
+            </div>
+        </div>
+        <footer><span>Pablo Sempere Martínez</span></footer>
+    </main>
+</body>
+</html>

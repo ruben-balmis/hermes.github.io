@@ -1,0 +1,136 @@
+body
+{
+    margin: 0vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7DADFF;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+header
+{
+    min-height: 14vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F5BE4C;
+    padding: 0vh 20vw;
+}
+h1
+{
+    color: #AB925C;
+    margin-top: 5vh;
+}
+h2
+{
+    color: #F5BE4C;
+    text-shadow: 0px 2px 0px #AB925C;
+}
+h3
+{
+    color: #F5BE4C;
+    text-shadow: 0px 2px 0px #AB925C;
+}
+nav
+{
+    min-height: 5vh;
+    background-color: #F5BE4C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0vh 20vw;
+}
+nav a
+{
+    margin: 1vh 1vw;
+    text-decoration-line: none;
+    font-size: large;
+    color: #7DADFF;
+    padding: 1vh;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+nav a:hover
+{
+    background-color: #AB925C;
+    color: #F5BE4C;
+}
+nav #Actividades
+{
+    border-style: solid;
+    border-color: #7DADFF;
+    border-radius: 25px;
+}
+main>div
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 0vh 20vw;
+}
+main>div>form
+{
+    display: flex;
+    flex-direction: column;
+}
+main>div>form>span
+{
+    margin: 1vh 0vw;
+}
+.Buscador
+{
+    display: flex;
+}
+#buscador
+{
+    width: 20vw;
+    height: 5vh;
+}
+#boton
+{
+    width: 2vw;
+}
+#precio
+{
+    width: 10vw;
+    height: 3vh;
+}
+#imagen
+{
+    position: relative;
+    text-align: center;
+    margin: 1vh 0.5vw;
+    -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+}
+#imagen:hover
+{
+    -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+}
+#texto
+{
+    position: absolute;
+    bottom: 950%;
+    left: 10%;
+    color: #AB925C;
+    text-shadow: 0px 1px 0px #F5BE4C;
+}
+footer
+{
+    min-height: 20vh;
+    background-color: #8A9AB8;
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

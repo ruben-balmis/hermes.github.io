@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de vuelos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="ListaDoVuelos.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="logomasheader">
+            <img src="Hermes.png" alt="logo página" width="150" height="150">
+            <h1 class="h1header">HERMES</h1>
+        </div>
+
+        <nav class="flexnavheader">
+                <div class="botonMenu">
+                    <a href="https://www.youtube.com/" target="blank">
+                        Vuelos
+                    </a>
+                </div>
+
+                <div class="botonMenu">
+                    <a href="https://www.youtube.com/" target="blank">
+                        Hoteles
+                    </a>
+                </div>
+
+                <div class="botonMenu">
+                    <a href="https://www.youtube.com/" target="blank">
+                        Coches
+                    </a>
+                </div>
+
+                <div class="botonMenu">
+                    <a href="https://www.youtube.com/" target="blank">
+                        Taxis
+                    </a>
+                </div>
+
+                <div class="botonMenu">
+                    <a href="https://www.youtube.com/" target="blank">
+                        Actividades
+                    </a>
+                </div>
+        </nav>
+        
+    </header>
+    <nav class="navprincipal">
+        <form>
+                <table>
+
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="¿Desde dónde sales?">
+                            </td>
+
+                            <td>
+                                <input type="text" placeholder="¿A dónde vas?" > 
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="¿Cuándo viajas?" onfocus="(this.type='date')">
+                            </td>
+
+                            <td>
+                                <input type="text" placeholder="¿Cuándo volverás" onfocus="(this.type='date')" > 
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="numero de personas" onfocus="(this.type='number')">
+                            </td>
+
+                            <td>
+                                <p> Solo vuelos directos : <input type="checkbox"> </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td >
+                                <input type="button" value="Buscar vuelos" class="botonRedondo">
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+        </form>
+
+    </nav>
+
+    <section>
+        <h1>
+            <em>Recomendacion de vuelos</em>
+        </h1>
+
+        <article>
+            <div class="ConjuntosTarjetas">
+
+                <div class="AgruparTarjetas">
+                    <div class="tarjeta">
+                        <img src="londres.jpg" alt="reino unido" width="100" height="100">
+
+                        <div class="paragrafocolumna">
+                            
+                            <p>  Vuelos de ida y vuelta por 50 euros</p>
+
+                            <h1> LONDRES </h1>
+                        </div>
+
+                        <div class="imgTarjetaDerecha">
+                            <img src="Iberia-Simbolo.png" alt="logo Iberia-Simbolo" width="50" height="50">
+                        </div>
+                        
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="Moscu.jpg" alt="ruisia Moscu" width="100" height="100">
+
+                        <div class="paragrafocolumna">
+                            <p>  Vuelos de ida y vuelta por 100 euros</p>
+
+                            <h1> MOSCÚ </h1>
+
+                        </div>
+
+                        <div class="imgTarjetaDerecha">
+                            <img src="Estelares de colombia.jpg" alt="logo Iberia-Simbolo" width="50" height="50">
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="AgruparTarjetas">
+                    <div class="tarjeta">
+                        <img src="ROMA.jpg" alt="reino unido" width="100" height="100">
+
+                        <div class="paragrafocolumna">
+                            
+                            <p>  Vuelos de ida y vuelta por 70 euros</p>
+
+                            <h1> ROMA </h1>
+                        </div>
+
+                        <div class="imgTarjetaDerecha">
+                            <img src="AMERICAN AIRLINES.png" alt="logo Iberia-Simbolo" width="50" height="50">
+                        </div>
+                        
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="Berlin.jpg" alt="reino unido" width="100" height="100">
+
+                        <div class="paragrafocolumna">
+                            <p>  Vuelos de ida y vuelta por 80 euros</p>
+
+                            <h1> BERLIN </h1>
+
+                        </div>
+
+                        <div class="imgTarjetaDerecha">
+                            <img src="Brithis Airways.jpg" alt="logo Iberia-Simbolo" width="50" height="50">
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="AgruparTarjetas">
+
+                    <div class="tarjeta">
+                        <img src="Amsterdan.jpg" alt="reino unido" width="100" height="100">
+
+                        <div class="paragrafocolumna">
+                            <p>  Vuelos de ida y vuelta por 40 euros</p>
+
+                            <h1> AMSTERDAN </h1>
+                        </div>
+
+                        <div class="imgTarjetaDerecha">
+                            <img src="Lufthansa.jpg" alt="logo Iberia-Simbolo" width="50" height="50">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p class="pfooter">
+            Francisco Jimenez Lozano 1ºDAM B | Grupo10
+        </p>
+    </footer>
+</body>
+
+</html>
+

@@ -1,0 +1,173 @@
+main
+{
+    max-width: 100vw;
+    min-height: 100vh; 
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header
+{
+    min-width: 100vw;
+    min-height: 75vh;
+
+    display: inline-block;
+}
+
+.fondo:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fondo
+{
+    background-image: url("../Imagenes/DiaNY.jpg");
+    background-color: #ab925c;
+    min-width: 100vh;
+    min-height: 75vh;
+    /*text-align: center;*/
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/*
+section
+{
+    max-width: 100vw;
+    min-height: 10vh;
+    background-color: #7daaff;
+}
+*/
+
+footer
+{
+    max-width: 300vw;
+    min-height: 25vh;
+
+    background-color: #8a9ab8;
+
+    display: flex;
+}
+
+footer div p
+{
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+}
+
+footer div
+{
+    flex-grow: 1;
+}
+
+footer div:last-child
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 0;
+}
+
+img
+{
+    position: relative;
+}
+
+nav
+{
+    position: relative;
+}
+
+ul
+{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+    margin-top: 10px;
+}
+
+li
+{
+    text-align: center;
+    flex-basis: 80px;
+
+    font-size: 15px;
+
+    transition:all .3s ease-in-out;
+}
+
+li:last-child
+{
+    flex-basis: 120px;   
+}
+
+nav li a:hover
+{
+    color: #f5c04c;
+    background-color: #ab925c;
+    text-decoration: underline;
+}
+
+a
+{
+    border-radius: 60px;
+    text-decoration: none;
+    color: white;
+
+    padding: 10px;
+}
+
+.logotipo
+{
+    display: inline-flex;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+form div
+{
+    color: #f5c04c;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 20vw;
+    /*flex-basis: 5px;*/
+}
+
+h1
+{
+    color: #ab925c;
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
